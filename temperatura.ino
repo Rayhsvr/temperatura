@@ -9,7 +9,7 @@ void setup() {
 }
 
 void loop() {
-  //Serial.print("Ambiente = "); Serial.print(mlx.readAmbientTempC()); Serial.print("*C");
+  Serial.print("Ambiente = "); Serial.print(mlx.readAmbientTempC()); Serial.print("*C");
   Serial.print(" Objeto= "); Serial.print(mlx.readObjectTempC()); Serial.println("*C");
   //Serial.println(mlx.readObjectTempC());
   delay(300);
